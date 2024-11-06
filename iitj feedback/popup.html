@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Feedback Automation</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      width: 200px;
+      padding: 10px;
+    }
+    label {
+      display: block;
+      margin: 5px 0;
+    }
+  </style>
+</head>
+<body>
+  <h3>Select Feedback Level</h3>
+  <form id="feedbackForm">
+    <label><input type="radio" name="rating" value="1"> 1 - Strongly Disagree</label>
+    <label><input type="radio" name="rating" value="2"> 2 - Disagree</label>
+    <label><input type="radio" name="rating" value="3"> 3 - Neutral</label>
+    <label><input type="radio" name="rating" value="4" checked> 4 - Agree</label>
+    <label><input type="radio" name="rating" value="5"> 5 - Strongly Agree</label>
+    <br>
+    <button id="submitBtn" type="button">Submit Feedback</button>
+  </form>
+</body>
+<script src="popup.js"></script>
+</html>
